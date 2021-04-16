@@ -404,7 +404,7 @@ color: white;
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>county_icons/usa.png</normaloff>county_icons/usa.png</iconset>
+               <normaloff>country_icons/usa.png</normaloff>country_icons/usa.png</iconset>
              </property>
             </item>
             <item>
@@ -413,7 +413,7 @@ color: white;
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>county_icons/canada.png</normaloff>county_icons/canada.png</iconset>
+               <normaloff>country_icons/canada.png</normaloff>country_icons/canada.png</iconset>
              </property>
             </item>
             <item>
@@ -422,7 +422,7 @@ color: white;
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>county_icons/european-union.png</normaloff>county_icons/european-union.png</iconset>
+               <normaloff>country_icons/european-union.png</normaloff>country_icons/european-union.png</iconset>
              </property>
             </item>
             <item>
@@ -431,7 +431,7 @@ color: white;
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>county_icons/bulgaria.png</normaloff>county_icons/bulgaria.png</iconset>
+               <normaloff>country_icons/bulgaria.png</normaloff>country_icons/bulgaria.png</iconset>
              </property>
             </item>
             <item>
@@ -440,7 +440,7 @@ color: white;
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>county_icons/sweden.png</normaloff>county_icons/sweden.png</iconset>
+               <normaloff>country_icons/sweden.png</normaloff>country_icons/sweden.png</iconset>
              </property>
             </item>
            </widget>
@@ -488,7 +488,7 @@ color: white;
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>county_icons/european-union.png</normaloff>county_icons/european-union.png</iconset>
+               <normaloff>country_icons/european-union.png</normaloff>country_icons/european-union.png</iconset>
              </property>
             </item>
             <item>
@@ -497,7 +497,7 @@ color: white;
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>county_icons/canada.png</normaloff>county_icons/canada.png</iconset>
+               <normaloff>country_icons/canada.png</normaloff>country_icons/canada.png</iconset>
              </property>
             </item>
             <item>
@@ -506,7 +506,7 @@ color: white;
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>county_icons/usa.png</normaloff>county_icons/usa.png</iconset>
+               <normaloff>country_icons/usa.png</normaloff>country_icons/usa.png</iconset>
              </property>
             </item>
             <item>
@@ -515,7 +515,7 @@ color: white;
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>county_icons/bulgaria.png</normaloff>county_icons/bulgaria.png</iconset>
+               <normaloff>country_icons/bulgaria.png</normaloff>country_icons/bulgaria.png</iconset>
              </property>
             </item>
             <item>
@@ -524,7 +524,7 @@ color: white;
              </property>
              <property name="icon">
               <iconset>
-               <normaloff>county_icons/sweden.png</normaloff>county_icons/sweden.png</iconset>
+               <normaloff>country_icons/sweden.png</normaloff>country_icons/sweden.png</iconset>
              </property>
             </item>
            </widget>
