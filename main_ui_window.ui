@@ -127,7 +127,7 @@ QPushButton:hover{
         </property>
         <property name="icon">
          <iconset>
-          <normaloff>burger_menu.png</normaloff>burger_menu.png</iconset>
+          <normaloff>icons/burger_menu.png</normaloff>icons/burger_menu.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -288,7 +288,7 @@ QPushButton:hover{
                </property>
                <property name="icon">
                 <iconset>
-                 <normaloff>arrows.png</normaloff>arrows.png</iconset>
+                 <normaloff>icons/arrows.png</normaloff>icons/arrows.png</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -320,7 +320,7 @@ QPushButton:hover{
                </property>
                <property name="icon">
                 <iconset>
-                 <normaloff>history.png</normaloff>history.png</iconset>
+                 <normaloff>icons/history.png</normaloff>icons/history.png</iconset>
                </property>
                <property name="iconSize">
                 <size>

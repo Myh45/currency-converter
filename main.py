@@ -1,4 +1,6 @@
 import sys
+import requests
+import json
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtGui import QIcon
 from PyQt5 import QtCore, QtGui
@@ -6,6 +8,10 @@ from main_ui_window import Ui_MainWindow
 from currency_converter import CurrencyConverter
 from PyQt5.QtCore import QPropertyAnimation
 from PyQt5.QtGui import QDoubleValidator, QValidator
+
+danni = requests.get('https://api.exchangerate-api.com/v4/latest/usd')
+obmin = json.loads(danni.text)
+currencies=obmin['rates']
 
 class CurrencyCov(QtWidgets.QMainWindow):
     def __init__(self):
@@ -74,10 +80,14 @@ class CurrencyCov(QtWidgets.QMainWindow):
 
             input_currency = self.ui.input_currency.currentText()
             output_currency = self.ui.output_currency.currentText()
+            amount=input_amount = float(self.ui.input_amount.text())
+
+            if input_currency!='USD':
+                input_amount = round(input_amount / currencies[input_currency],2)
 
 
-            output_result = round(c.convert(input_amount, '%s' % (input_currency), '%s' % (output_currency)), 2)
-            self.ui.result_label.setText(str(input_amount) + " " + str(input_currency) + " = " + str(output_result) + " " + str(output_currency))
+            output_result = round(input_amount * currencies[output_currency],2)
+            self.ui.result_label.setText(str(amount) + " " + str(input_currency) + " = " + str(output_result)+ " " + str(output_currency))
 
             f = open("data.txt", "a")
             f.write(str(input_amount) + " " + str(input_currency) + " -> " + str(output_result) + " " + str(
